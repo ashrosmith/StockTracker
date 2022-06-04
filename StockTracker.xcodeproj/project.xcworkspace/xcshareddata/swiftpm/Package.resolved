@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core",
+      "state" : {
+        "revision" : "472d325a2e844fcb48c400db74e6b9646f92ca93",
+        "version" : "11.15.0"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-swift.git",
+      "state" : {
+        "revision" : "41fe221e2209ad31bee35593513d957dc3e6e458",
+        "version" : "10.25.2"
+      }
+    },
+    {
+      "identity" : "swipecellkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwipeCellKit/SwipeCellKit",
+      "state" : {
+        "revision" : "7219cad3098637176ace311510d11467dbfb9bb0",
+        "version" : "2.7.1"
+      }
+    }
+  ],
+  "version" : 2
+}
