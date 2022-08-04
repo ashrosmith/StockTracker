@@ -62,7 +62,7 @@ class StockInformationViewController: UIViewController {
     
 //MARK: - Load Stock Information By Date Methods
     
-    func loadStockInformation() {
+    private func loadStockInformation() {
         if let ticker = symbolLabel.text {
             if let date = dateLabel.text {
                 if date == "Date" {
@@ -74,7 +74,7 @@ class StockInformationViewController: UIViewController {
         }
     }
     
-    func getCurrentDate() {
+    private func getCurrentDate() {
         let date = Date()
         let df = DateFormatter()
         df.dateFormat = "yyyy-MM-dd"
